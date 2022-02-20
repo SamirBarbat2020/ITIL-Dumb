@@ -1,0 +1,76 @@
+*{
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+
+.nav-section{
+    background-color: #252525;
+    /* overflow: auto; */
+}
+
+.question-myStyle{
+    /* border: solid 3px #FFE209; */
+    background-color: #FFE209;
+    color: black;
+    font-weight: bold;
+}
+
+.question-myStyle:hover{
+    cursor: pointer;
+    color: black;
+    
+}
+
+.itil-title{
+    color:#FFE209;
+}
+.contents{
+    background-color: #252525;
+    overflow: auto;
+    padding: 5%;
+}
+
+.footer{
+    background-color: #FFE209;
+}
+
+.smal-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-answer-myStyle{
+    color: #01090f;
+    background-color: #32a028;
+    box-shadow: 0 0 15px #21e70f, 0 0 15px #21e70f, 0 0 15px #21e70f;
+}
+
+.wrong-answer-myStyle{
+    color: #01090f;
+    
+    box-shadow: 0 0 15px #fc4b3f, 0 0 15px #fc4b3f, 0 0 15px #fc4b3f;
+}
+
+.removing-question-style:hover{
+    background-color: #ED8A1F;
+}
+
+.winner-screen{
+    padding: 5%;
+    max-width: 1140px;
+    border-radius: 25px;
+    /* background-color: #ED8A1F; */
+    background-color: #252525;
+    overflow: auto;
+}
+
+.winner-img{
+    width: 400px;
+}
+
+.d-none{
+    display: none;
+}
